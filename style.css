@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.base {
+  max-width: 2400px;
+  padding: 3%;
+  margin: 0 auto;
+}
+.logo {
+  color: white;
+  font-size: 28px;
+  font-family: 'Times New Roman';
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #000000ff;
+
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .3s;
+} 
+ul li a:hover {
+  background-color: #2e46b388;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+div {
+  text-align: left;
+}
+.img1 {
+  width: 639px;
+  position: absolute;
+  top: 32%;
+  left: 2%;
+}
+.img2 {
+  width: 630px;
+  position: absolute;
+  top: 18%;
+  left: 4%;
+}
+.img3 {
+  width: 570px;
+  position: absolute;
+  top: 18%;
+  left: 2%;
+}
+.img4 {
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+.img5 {
+  width: 680px;
+  position: absolute;
+  top: 38%;
+  left: 2%;
+}
+.img6 {
+  width: 723px;
+  position: absolute;
+  top: 23%;
+  left: 1%;
+}
+.texto {
+  color: white;
+  text-align: center;
+  margin: 80px;
+  margin-left: 40%;
+  font-size: 28px;
+}
+.texto2 {
+  color: white;
+  text-align: center;
+  margin-left: 38%;
+  font-size: 25px;
+  font-family: Georgia;
+}
